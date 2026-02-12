@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div >
         <h1 className='text-center text-3xl font-bold m-4'>Popular Books</h1>
-    <div className='grid grid-cols-3 sm:grid-cols-4 gap-6'>
+    <div className='grid grid-cols-2 sm:grid-cols-4 gap-6'>
         {data.results.map((items)=>(
             <div key={items.id} className='shadow-2xl rounded-2xl cursor-pointer p-2' onClick={()=>handle(`${items.id}`)}>
                 <div className='flex justify-center '>

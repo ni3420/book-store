@@ -21,7 +21,7 @@ const Book = () => {
         {
             window.location.href=items;
         }else{
-            navigate("/")
+            navigate("/login")
         }
     }
     const Watch=()=>{

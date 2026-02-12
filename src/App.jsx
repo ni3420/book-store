@@ -8,11 +8,9 @@ const App = () => {
   return (
     <div>
 
-      <UseContextProvider>
-        <Header/>
+      <Header/>
       <Outlet/>
       <Footer/>
-      </UseContextProvider>
     </div>
   )
 }
